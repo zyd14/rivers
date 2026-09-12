@@ -47,6 +47,7 @@ tonic-prost = "0.14"
 tonic-prost-build = "0.14"
 tonic-health = "0.14"
 prost = "0.14"
+protoc-bin-vendored = "3.2"
 
 # Kubernetes — direct subcrate deps instead of the `kube` umbrella so each
 # member crate only pulls (and rebuilds) the layer it actually uses.
